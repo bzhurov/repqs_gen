@@ -25,8 +25,9 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
-\papersize default
+\papersize a4paper
 \use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
@@ -43,7 +44,7 @@
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
-\paperorientation portrait
+\paperorientation landscape
 \suppress_date false
 \justification true
 \use_refstyle 1
@@ -74,13 +75,14 @@ General model of repressilator with Quorum Sensing feedback
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="15" columns="6">
+<lyxtabular version="3" rows="17" columns="6">
 <features rotate="0" tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -395,6 +397,16 @@ key "bennett2007transient"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $20(luxR)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -461,6 +473,16 @@ key "bennett2007transient"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.2(luxR)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -527,6 +549,16 @@ key "bundschuh2003role"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.1,\,1(AI-luxR)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -649,6 +681,16 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.02(AI-luxR)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -837,6 +879,16 @@ production
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $842(steady\,state\,10nM)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -893,6 +945,16 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.023(internal),\,0.0018(external)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
@@ -949,6 +1011,148 @@ diffusion
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $3.6\times10^{-12}(glucose),\,1.8\times10^{-13}(lactose),\,2\times10^{-12}(AI)[L]$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+binding
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.1,\,1(AI+luxR)$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Other
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cell Volume
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.6\times10^{-15}[L]$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -978,7 +1182,7 @@ diffusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-binding
+Env Volume
 \end_layout
 
 \end_inset
@@ -987,6 +1191,16 @@ binding
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $7.99\times10^{-9}[L]$
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "tanouchi2008noise"
+
+\end_inset
+
 
 \end_layout
 
