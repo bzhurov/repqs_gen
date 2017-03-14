@@ -101,7 +101,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Molecule type
+Molecule
 \end_layout
 
 \end_inset
@@ -243,6 +243,9 @@ transcription
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $1(10)$
+\end_inset
+
 
 \end_layout
 
@@ -252,7 +255,7 @@ transcription
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1(10)$
+\begin_inset Formula $0.016(0.16)$
 \end_inset
 
 
@@ -290,6 +293,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.16,\,0.0416$
+\end_inset
+
 
 \end_layout
 
@@ -319,6 +325,9 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $6(6)$
+\end_inset
+
 
 \end_layout
 
@@ -328,7 +337,7 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $6(6)$
+\begin_inset Formula $0.1(0.1)$
 \end_inset
 
 
@@ -366,6 +375,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.00578$
+\end_inset
+
 
 \end_layout
 
@@ -395,6 +407,9 @@ translation
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $3(20)$
+\end_inset
+
 
 \end_layout
 
@@ -404,7 +419,7 @@ translation
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $3(20)$
+\begin_inset Formula $0.05(0.333)$
 \end_inset
 
 
@@ -442,6 +457,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.333$
+\end_inset
+
 
 \end_layout
 
@@ -508,6 +526,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.115$
+\end_inset
+
 
 \end_layout
 
@@ -537,6 +558,9 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $1(1)$
+\end_inset
+
 
 \end_layout
 
@@ -546,7 +570,7 @@ degradation
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1(1)$
+\begin_inset Formula $0.016(0.016)$
 \end_inset
 
 
@@ -584,6 +608,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.0033$
+\end_inset
+
 
 \end_layout
 
@@ -650,6 +677,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $3.33\times10^{-5},\,0.00016$
+\end_inset
+
 
 \end_layout
 
@@ -679,6 +709,9 @@ dimerization
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $1.5,\,30,\,20$
+\end_inset
+
 
 \end_layout
 
@@ -726,6 +759,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.0016,\,0.016$
+\end_inset
+
 
 \end_layout
 
@@ -755,7 +791,10 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $50(5),\,1000(100)$
+\end_inset
 
+ single(oscill)
 \end_layout
 
 \end_inset
@@ -764,10 +803,10 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $50(5),\,1000(100)$
+\begin_inset Formula $0.833(0.0833),\,16.66(1.666)$
 \end_inset
 
- single(oscill)
+
 \begin_inset CommandInset citation
 LatexCommand cite
 key "bennett2007transient"
@@ -802,6 +841,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.000833,\,0.16.\,20$
+\end_inset
+
 
 \end_layout
 
@@ -868,6 +910,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.000333$
+\end_inset
+
 
 \end_layout
 
@@ -934,6 +979,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $3.33\times10^{-5}$
+\end_inset
+
 
 \end_layout
 
@@ -963,6 +1011,9 @@ binding
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.72,\,54,\,75$
+\end_inset
+
 
 \end_layout
 
@@ -1010,6 +1061,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.000833,\,0.16,\,200$
+\end_inset
+
 
 \end_layout
 
@@ -1039,6 +1093,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $50(5),\,1000(100)$
+\end_inset
+
 
 \end_layout
 
@@ -1048,7 +1105,7 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $50(5),\,1000(100)$
+\begin_inset Formula $0.833(0.0833),\,16.66(1.666)$
 \end_inset
 
  single(oscill)
@@ -1083,7 +1140,7 @@ key "bennett2007transient"
 </cell>
 </row>
 <row>
-<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" rotate="90" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1142,6 +1199,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $14.033$
+\end_inset
+
 
 \end_layout
 
@@ -1208,6 +1268,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.000666$
+\end_inset
+
 
 \end_layout
 
@@ -1274,6 +1337,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.000383,\,3\times10^{-5}$
+\end_inset
+
 
 \end_layout
 
@@ -1340,6 +1406,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $1.66\times10^{-5}$
+\end_inset
+
 
 \end_layout
 
@@ -1406,6 +1475,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $6\times10^{-14},\,3\times10^{-17},\,3.33\times10^{-14}$
+\end_inset
+
 
 \end_layout
 
@@ -1472,6 +1544,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.166$
+\end_inset
+
 
 \end_layout
 
@@ -1538,6 +1613,9 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.0016,\,0.016$
+\end_inset
+
 
 \end_layout
 
@@ -1604,6 +1682,9 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Formula $0.0016,\,0.16,\,100$
+\end_inset
+
 
 \end_layout
 
