@@ -740,7 +740,7 @@ key "bundschuh2003role"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.1,\,1(AI\cdot luxR)$
+\begin_inset Formula $0.1,\,1,\,10(AI\cdot luxR)$
 \end_inset
 
 
@@ -759,7 +759,7 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.0016,\,0.016$
+\begin_inset Formula $0.0016,\,0.016,\,10$
 \end_inset
 
 
@@ -791,7 +791,7 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $50(5),\,1000(100)$
+\begin_inset Formula $50(5),\,1000(100),\,20$
 \end_inset
 
  single(oscill)
@@ -803,7 +803,7 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.833(0.0833),\,16.66(1.666)$
+\begin_inset Formula $0.833(0.0833),\,16.66(1.666),\,20$
 \end_inset
 
 
@@ -1093,7 +1093,7 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $50(5),\,1000(100)$
+\begin_inset Formula $50(5),\,1000(100),\,20$
 \end_inset
 
 
@@ -1105,7 +1105,7 @@ key "weber2013dynamics"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.833(0.0833),\,16.66(1.666)$
+\begin_inset Formula $0.833(0.0833),\,16.66(1.666),\,20$
 \end_inset
 
  single(oscill)
@@ -1594,7 +1594,7 @@ binding
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.1,\,1(AI+luxR)$
+\begin_inset Formula $0.1,\,1(AI+luxR),\,10$
 \end_inset
 
 
@@ -1613,7 +1613,7 @@ key "tanouchi2008noise"
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $0.0016,\,0.016$
+\begin_inset Formula $0.0016,\,0.016,\,10$
 \end_inset
 
 
