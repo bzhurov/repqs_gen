@@ -42,3 +42,57 @@ model = {
         'eta': 0.0067, 'kua': 0.166667, 'ka': 0.001667, 'kRd': 0.000833, 'kRud': 0.016667, 'kRr': 0.000833, 'kRur': 0.16667, 'pR': 50
 
     }
+
+vary_prms = {
+        'rm': [0.0, 0.03], 
+        'rp': [0.1], 
+        'dm': [0.0033], 
+        'dp': [0.0033],
+        'delta': [0.0], 
+        'kr': [0.012], 
+        'kur': [0.9], 
+        'kd': [0.025], 
+        'kud': [0.5], 
+        'gt': [20],
+        'se': [0.0], 
+        'omega': [0.0], 
+        'rmI': [0.1],
+        'rs': [0.0067], 
+        'ds': [1.67e-5], 
+        'eta': [0.0067], 
+        'kua': [0.166667], 
+        'ka': [0.001667], 
+        'kRd': [0.000833], 
+        'kRud': [0.016667], 
+        'kRr': [0.000833], 
+        'kRur': [0.16667], 
+        'pR': [5, 50, 100],
+        }
+
+import pprint
+import numpy as np
+import itertools as IT
+pp = pprint.PrettyPrinter()
+def gen_descriptors(config, model, vary_prms):
+    names, values = [], []
+    for k, v in vary_prms.items():
+        names.append(k)
+        values.append(v)
+    values, names = map(np.array, (values, names))
+    idx = np.argsort(names)
+    values = values[idx]
+    names = names[idx]
+    confname = config['name']
+    for v in IT.product(*values):
+        pardict = dict(zip(names, v))
+        h = '%x' % np.abs(hash(v))
+        model.update(pardict)
+        s = pprint.pformat(model)
+        f = open('%s_%s.conf.py' % (confname, h), 'w')
+        config['name'] = '%s_%s' % (confname, h)
+        f.write('config = %s\n\n' % (pprint.pformat(config)))
+        f.write('model = %s\n' % (pprint.pformat(model)))
+        f.close()
+
+
+gen_descriptors(config, model, vary_prms)
